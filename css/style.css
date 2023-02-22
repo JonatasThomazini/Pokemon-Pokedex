@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 * {
     margin: 0px;
     padding: 0px;
@@ -20,8 +22,7 @@ body {
 /*** Imagem do header pokedex ***/
 .imgpokedex{
     width: 40vh;
-    
-    
+    margin-left: 40% auto 0%; 
    
 }
 /*** Imagem do header picachu ***/
@@ -43,8 +44,8 @@ main {
     width: 100%;
     
 }
-/*** Tamanho dos cards pokemon  ***/
-.cards-pokemon{
+/*** Tamanho dos cards pokemon Gass ***/
+.cards-pokemon-gass{
     display: block;
     padding: 45px;
     float: left;
@@ -57,13 +58,84 @@ main {
     border-radius: 4%;
     
 }
-/*** animaçao dos cards  ***/
-.cards-pokemon:hover{
+/*** Tamanho dos cards pokemon Fire***/
+.cards-pokemon-fire{
+    display: block;
+    padding: 45px;
+    float: left;
+    height: 110px;
+    width: 180px;
+    background-color: rgb(255, 115, 0);
+    margin: 2% 2% 2% 4%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    border-radius: 4%;
+    
+}
+/*** Tamanho dos cards pokemon Water ***/
+.cards-pokemon-water{
+    display: block;
+    padding: 45px;
+    float: left;
+    height: 110px;
+    width: 180px;
+    background-color: rgb(6, 65, 194);
+    margin: 2% 2% 2% 4%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    border-radius: 4%;
+    
+}
+/*** animaçao dos cards tipo gass  ***/
+.cards-pokemon-gass:hover{
     -webkit-transform: scale(0.2);
     transform: scale(1.1);
      
 }
-/*** POkemon bulbasauro  ***/
+/*** animaçao dos cards tipo fire  ***/
+.cards-pokemon-fire:hover{
+    -webkit-transform: scale(0.2);
+    transform: scale(1.1);
+     
+}
+/*** animaçao dos cards tipo water  ***/
+.cards-pokemon-water:hover{
+    -webkit-transform: scale(0.2);
+    transform: scale(1.1);
+     
+}
+/*** nome pokemon  ***/
+.nomePokemon{
+    font-size: 28px;
+    font-family: 'DotGothic16', sans-serif;
+    color: white;
+    margin: -78% 0% 0% -20%;
+}
+/*** tipo do pokemon  ***/
+.icone{
+    width: 40%;
+    margin: 30% -10%;
+    
+}
+
+/*** 2 tipo do pokemon  ***/
+.icone-2{
+    width: 40%;
+    margin: 30% -10%;
+    
+}
+
+/*** numero do pokemon ***/
+.numeroPokemon{
+    font-size: 25px;
+    color: white;
+    margin-top: -95%;
+    margin-left: -20%;
+    font-family: 'DotGothic16', sans-serif;
+    
+    
+}
+/*** Tamanho da imagem do Pokemon ***/
 .bulbasauro{
     width: 52%;
     margin-top: -50%;
@@ -77,57 +149,245 @@ main {
     margin-left: 54%;
    
 }
-/*** numero do pokemon ***/
-.numeroPokemon{
-    font-size: 25px;
-    color: white;
-    margin-top: -95%;
-    margin-left: -20%;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-/*** nome pokemon  ***/
-.nomePokemon{
-    font-size: 30px;
-    
-    color: white;
-    margin: -78% 0% 0% -20%;
-}
-/*** nome pokemon  ***/
-.icone-grass{
-    width: 40%;
-    margin: 30% -10%;
-    
-}
 
-.icone-poison{
-    width: 40%;
-    margin: 30% -10%;
-    
-}
+
+/*** Tamanho da imagem do Pokemon ***/
 .ivysaur{
     width: 100%;
     margin-top: -60%;
     margin-left: 40%;
 }
+/*** Numero do pokemon na pokedex ***/
+
 .numeroPokemon-Ivysaur{
     font-size: 25px;
     color: white;
     margin-top: -108%;
     margin-left: -20%;
-    font-family: Arial, Helvetica, sans-serif;
+    
+    font-family: 'DotGothic16', sans-serif;
 
 }
+/*** Tamanho da imagem do Pokemon ***/
 .venusaur{
     width: 130%;
     margin-top: -65%;
     margin-left: 25%;
 }
+/*** Pokemon Pokedex ***/
 .numeroPokemon-Venusaur{
     font-size: 25px;
     color: white;
     margin-top: -108%;
     margin-left: -20%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'DotGothic16', sans-serif;
 
+}
+/*** Tamanho da imagem do Pokemon ***/
+.charmander{
+    width: 180%;
+    margin-top: -60%;
+    margin-left: 5%;
+}
+/*** Tamanho da imagem do Pokemon ***/
+.charmeleon{
+    width: 65%;
+    margin-top: -60%;
+    margin-left: 55%;
+}
+/*** Numero do Pokemon na Pokedex ***/
+.numeroCharmeleon{
+    font-size: 25px;
+    color: white;
+    margin-top: -108%;
+    margin-left: -20%;
+    font-family: 'DotGothic16', sans-serif;
+}
+/*** Tamanho da imagem do Pokemon ***/
+.charizard{
+    width: 220%;
+    margin-top: -70%;
+    margin-left: -65%;
+}
+/*** Numero do Pokemon na Pokedex ***/
+.numeroCharizard{
+    font-size: 25px;
+    color: white;
+    margin-top: -115%;
+    margin-left: -20%;
+    font-family: 'DotGothic16', sans-serif;
+}
+/*** Tamanho da imagem do Pokemon ***/
+.squirtle{
+    width: 60%;
+    margin-top: -50%;
+    margin-left: 60%;
+}
+/*** Tamanho da imagem do Pokemon ***/
+.wartortle{
+    width: 65%;
+    margin-top: -65%;
+    margin-left: 60%;
+}
+/*** Tamanho da imagem do Pokemon ***/
+.blastoise{
+    width: 82%;
+    margin-top: -63%;
+    margin-left: 60%;
+}
+/*** Fundo do card Articuno***/
+.card-articuno{
+    display: block;
+    padding: 45px;
+    float: left;
+    height: 110px;
+    width: 180px;
+    background-color: rgb(3, 181, 235);
+    margin: 2% 2% 2% 4%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    border-radius: 4%;
+}
+/*** Animação ***/
+.card-articuno:hover{
+    -webkit-transform: scale(0.2);
+    transform: scale(1.1);
+     
+}
+/*** Tamanho da imagem do Pokemon ***/
+.articuno{
+    width: 160%;
+    margin-top: -118%;
+    margin-left: 20%;
+}
+/*** Fundo do card  ***/
+.card-moltres{
+    display: block;
+    padding: 45px;
+    float: left;
+    height: 110px;
+    width: 180px;
+    background-color: rgb(253, 43, 43);
+    margin: 2% 2% 2% 4%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    border-radius: 4%;
+}
+.card-moltres:hover{
+    -webkit-transform: scale(0.2);
+    transform: scale(1.1);
+     
+}
+/*** Tamanho da imagem do Pokemon ***/
+.moltres{
+    width: 165%;
+    margin-top: -118%;
+    margin-left: 20%;
+}
+/*** Fundo do card  ***/
+.card-zapdos{
+    display: block;
+    padding: 45px;
+    float: left;
+    height: 110px;
+    width: 180px;
+    background-color: rgb(211, 211, 12);
+    margin: 2% 2% 2% 4%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    border-radius: 4%;
+}
+/*** Tamanho da imagem do Pokemon ***/
+.zapdos{
+    width: 155%;
+    margin-top: -80%;
+    margin-left: 20%;
+}
+/*** Animação ***/
+.card-zapdos:hover{
+    -webkit-transform: scale(0.2);
+    transform: scale(1.1);
+     
+}
+/*** Fundo do card  ***/
+.card-celebi{
+    display: block;
+    padding: 45px;
+    float: left;
+    height: 110px;
+    width: 180px;
+    background-color: rgb(85, 255, 99);
+    margin: 2% 2% 2% 4%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    border-radius: 4%;
+}
+/*** Tamanho Pokemon celebi ***/
+.celebi{
+    width: 60%;
+    margin-top: -50%;
+    margin-left: 50%;
+}
+/*** Animação ***/
+.card-celebi:hover{
+    -webkit-transform: scale(0.2);
+    transform: scale(1.1);
+     
+}
+/*** Fundo do card  ***/
+.card-mew{
+    display: block;
+    padding: 45px;
+    float: left;
+    height: 110px;
+    width: 180px;
+    background-color: rgb(255, 115, 139);
+    margin: 2% 2% 2% 4%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    border-radius: 4%;
+}
+.mew{
+    width: 60%;
+    margin-top: -80%;
+    margin-left: 50%;
+}
+/*** Animação ***/
+.card-mew:hover{
+    -webkit-transform: scale(0.2);
+    transform: scale(1.1);
+     
+}
+/*** Fundo do card  ***/
+.card-mewtwo{
+    display: block;
+    padding: 45px;
+    float: left;
+    height: 110px;
+    width: 180px;
+    background-color: rgb(66, 66, 66);
+    margin: 2% 2% 2% 4%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    border-radius: 4%;
+}
+/*** Animação ***/
+.card-mewtwo:hover{
+    -webkit-transform: scale(0.2);
+    transform: scale(1.1);
+     
+}
+/*** Pokemon mewtwo ***/
+.mewtwo{
+    width: 90%;
+    margin-top: -70%;
+    margin-left: 60%;
+}
+/*** Pokemon Numero Pokedex ***/
+.numero-mewtwo{
+    font-size: 22px;
+    color: white;
+    margin-top: -105%;
+    margin-left: -20%;
+    font-family: 'DotGothic16', sans-serif;
 }
