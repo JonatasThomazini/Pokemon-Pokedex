@@ -15,20 +15,22 @@ body {
 .img-Header {
     background-image: linear-gradient(rgb(253, 253, 117), rgb(255, 250, 177), rgb(253, 253, 117));
     margin-bottom: 6%;
-    padding: 40px;
+    padding: 5%
     
 }
 
 /*** Imagem do header pokedex ***/
 .imgpokedex{
-    width: 40vh;
-   
+    width: 32vh;
+    margin: auto;
+    
+  
 }
 /*** Imagem do header picachu ***/
 .picachuHeader{
-    margin: 0% 0% 0%;
-    width: 8vh; 
-     
+    width: 6vh; 
+     margin: 0%;
+    
     
 }
 
@@ -169,7 +171,7 @@ main {
 }
 /*** Tamanho da imagem do Pokemon ***/
 .venusaur{
-    width: 130%;
+    width: 115%;
     margin-top: -65%;
     margin-left: 25%;
 }
@@ -184,13 +186,13 @@ main {
 }
 /*** Tamanho da imagem do Pokemon ***/
 .charmander{
-    width: 180%;
-    margin-top: -60%;
-    margin-left: 5%;
+    width: 145%;
+    margin-top: -50%;
+   margin-right: 5%;
 }
 /*** Tamanho da imagem do Pokemon ***/
 .charmeleon{
-    width: 65%;
+    width: 60%;
     margin-top: -60%;
     margin-left: 55%;
 }
@@ -204,15 +206,15 @@ main {
 }
 /*** Tamanho da imagem do Pokemon ***/
 .charizard{
-    width: 220%;
+    width: 170%;
     margin-top: -70%;
-    margin-left: -65%;
+    margin-left: -30%;
 }
 /*** Numero do Pokemon na Pokedex ***/
 .numeroCharizard{
     font-size: 25px;
     color: white;
-    margin-top: -115%;
+    margin-top: -95%;
     margin-left: -20%;
     font-family: 'DotGothic16', sans-serif;
 }
@@ -232,7 +234,7 @@ main {
 .blastoise{
     width: 82%;
     margin-top: -63%;
-    margin-left: 60%;
+    margin-left: 50%;
 }
 /*** Fundo do card Articuno***/
 .card-articuno{
@@ -255,9 +257,9 @@ main {
 }
 /*** Tamanho da imagem do Pokemon ***/
 .articuno{
-    width: 160%;
+    width: 145%;
     margin-top: -118%;
-    margin-left: 20%;
+    margin-left: 2%;
 }
 /*** Fundo do card  ***/
 .card-moltres{
@@ -279,8 +281,8 @@ main {
 }
 /*** Tamanho da imagem do Pokemon ***/
 .moltres{
-    width: 165%;
-    margin-top: -118%;
+    width: 130%;
+    margin-top: -110%;
     margin-left: 20%;
 }
 /*** Fundo do card  ***/
@@ -298,9 +300,9 @@ main {
 }
 /*** Tamanho da imagem do Pokemon ***/
 .zapdos{
-    width: 155%;
+    width: 132%;
     margin-top: -80%;
-    margin-left: 20%;
+    margin-left: 16%;
 }
 /*** Animação ***/
 .card-zapdos:hover{
