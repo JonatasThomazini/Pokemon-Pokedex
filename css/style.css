@@ -1,0 +1,427 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(rgb(219, 219, 217), rgba(73, 73, 72, 0.938));
+    
+}
+
+/*** Imagem do header pokedex ***/
+
+.img-Header {
+    background-image: linear-gradient(rgb(253, 253, 117), rgb(255, 250, 177), rgb(253, 253, 117));
+    margin-bottom: 6%;
+    padding: 5%;
+    box-shadow: 0px 10px 10px rgb(78, 78, 78);
+    border-bottom: solid 2px black;
+    
+}
+
+/*** Imagem do header pokedex ***/
+.imgpokedex{
+    width: 30%;
+  
+}
+/*** Imagem do header picachu ***/
+.picachuHeader{
+    width: 5%; 
+     margin: 0%;
+    
+    
+}
+
+/*** Tamanho dos cards pokemon  ***/
+.card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    border-radius: 4%;
+}
+
+/*** Tamanho dos cards pokemon Gass ***/
+.cards-pokemon-gass{
+    position: relative;
+    margin: 1%;
+    width: 280px;
+    height: 250px;
+    background-color: rgb(22, 124, 31);
+    border-radius: 5%;
+    border: solid 2px rgb(0, 0, 0);
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    border-radius: 4%;
+
+}
+/*** animaçao dos cards tipo gass  ***/
+.cards-pokemon-gass:hover{
+    -webkit-transform: scale(0.2);
+    transform: scale(1.1);
+     
+}
+
+/*** imagem pokebola fundo  ***/
+.pokebolafundo{
+    margin-left: 35%;
+    margin-top: 10%;
+    width: 65%;    
+}
+
+/*** numero do pokemon ***/
+.numeroPokemon{
+    font-size: 25px;
+    color: white;
+    margin-left: 4%;
+    margin-top: -78%;
+    font-family: 'Inconsolata', monospace;
+    
+}
+/*** nome pokemon  ***/
+.nomePokemon{
+    font-size: 25px;
+    color: white;
+    margin-left: 2%;
+    margin-top: 3%;
+    font-family: 'Inconsolata', monospace;
+}
+
+/*** tipo do pokemon  ***/
+.icone{
+    width: 32%;
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 10%;
+    
+}
+
+/*** 2 tipo do pokemon  ***/
+.icone-2{
+    width: 32%;
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 27%;
+    
+}
+
+/*** Tamanho da imagem do Pokemon ***/
+.bulbasauro{
+    width: 36%;
+    margin-top: -50%;
+    margin-left: 48%;
+    
+}
+
+/*** Tamanho da imagem do Pokemon ***/
+.Ivysaur{
+    width: 68%;
+    margin-top: -52%;
+    margin-left: 38%;
+}
+
+/*** Tamanho da imagem do Pokemon ***/
+.Venusaur{
+    width: 80%;
+    margin-top: -52%;
+    margin-left: 32%;
+}
+
+/*** Tamanho dos cards pokemon Fire ***/
+.cards-pokemon-fire{
+    position: relative;
+    margin: 1%;
+    width: 280px;
+    height: 250px;
+    background-color: rgb(255, 115, 0);
+    border-radius: 5%;
+    border: solid 2px rgb(0, 0, 0);
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    border-radius: 4%;
+}
+
+/*** animaçao dos cards tipo fire  ***/
+.cards-pokemon-fire:hover{
+    -webkit-transform: scale(0.2);
+    transform: scale(1.1);
+     
+}
+
+/*** Tamanho da imagem do Pokemon ***/
+.Charmander{
+    width: 98%;
+    margin-top: -52%;
+    margin-left: 22%;
+}
+
+/*** Tamanho da imagem do Pokemon ***/
+.Charmeleon{
+    width: 40%;
+    margin-top: -52%;
+    margin-left: 50%;
+}
+
+/*** Tamanho da imagem do Pokemon ***/
+.Charizard{
+    overflow: hidden;
+    position: absolute;
+    width: 130%;
+    margin-top: 20%;
+    margin-left: -120%;
+}
+
+/*** Numero Pokemon Charizard ***/
+.numeroPokemon-charizard{
+    font-size: 25px;
+    color: white;
+    margin-left: 4%;
+    margin-top: -72%;
+    font-family: 'Inconsolata', monospace;
+}
+
+/*** Tamanho dos cards pokemon Water ***/
+.cards-pokemon-water{
+    position: relative;
+    margin: 1%;
+    width: 280px;
+    height: 250px;
+    background-color: rgb(6, 65, 194);
+    border-radius: 5%;
+    border: solid 2px rgb(0, 0, 0);
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    border-radius: 4%;
+}
+/*** animaçao dos cards  ***/
+.cards-pokemon-water:hover{
+    -webkit-transform: scale(0.2);
+    transform: scale(1.1);
+     
+}
+/*** Tamanho da imagem do Pokemon ***/
+.Squirtle{
+    width: 38%;
+    margin-top: -52%;
+    margin-left: 50%;
+}
+
+/*** Tamanho da imagem do Pokemon ***/
+.Wartortle{
+    width: 42%;
+    margin-top: -52%;
+    margin-left: 50%;
+}
+
+/*** Tamanho da imagem do Pokemon ***/
+.Blastoise{
+    width: 60%;
+    margin-top: -52%;
+    margin-left: 48%;
+}
+
+/*** Tamanho do card do Articuno*/
+.card-articuno{
+    position: relative;
+    margin: 1%;
+    width: 280px;
+    height: 250px;
+    background-color: rgb(3, 181, 235);
+    border-radius: 5%;
+    border: solid 2px rgb(0, 0, 0);
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    border-radius: 4%;
+}
+
+/*** animaçao dos cards  ***/
+.card-articuno:hover{
+    -webkit-transform: scale(0.2);
+    transform: scale(1.1);
+     
+}
+
+/*** Tamanho da imagem do pokemon**/
+.Articuno{
+    position: absolute;
+    width: 100%;
+    right: -16%;
+}
+
+/*** Tamanho dos cards pokemon moltres***/
+.card-moltres{
+    position: relative;
+    margin: 1%;
+    width: 280px;
+    height: 250px;
+    background-color: rgb(253, 43, 43);
+    border-radius: 5%;
+    border: solid 2px rgb(0, 0, 0);
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    border-radius: 4%;
+}
+
+/*** animaçao dos cards  ***/
+.card-moltres:hover{
+    -webkit-transform: scale(0.2);
+    transform: scale(1.1);
+     
+}
+
+/*** Tamanho da imagem do pokemon**/
+.Moltres{
+    overflow: hidden;
+    position: absolute;
+    width: 87%;
+    right: -12%;
+}
+
+/*** Tamanho dos cards pokemon Zapdos***/
+.card-zapdos{
+    position: relative;
+    margin: 1%;
+    width: 280px;
+    height: 250px;
+    background-color: rgb(211, 211, 12);
+    border-radius: 5%;
+    border: solid 2px rgb(0, 0, 0);
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    border-radius: 4%;
+}
+
+/*** animaçao dos cards  ***/
+.card-zapdos:hover{
+    -webkit-transform: scale(0.2);
+    transform: scale(1.1);
+     
+}
+
+/*** Tamanho da imagem do pokemon**/
+.zapdos{
+    overflow: hidden;
+    position: absolute;
+    width: 94%;
+    right: -13%;
+    top: 15%;
+}
+
+/*** Tamanho dos cards pokemon Celebi***/
+.card-celebi{
+    position: relative;
+    margin: 1%;
+    width: 280px;
+    height: 250px;
+    background-color: rgb(12, 211, 72);
+    border-radius: 5%;
+    border: solid 2px rgb(0, 0, 0);
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    border-radius: 4%;
+}
+/*** animaçao dos cards  ***/
+.card-celebi:hover{
+    -webkit-transform: scale(0.2);
+    transform: scale(1.1);
+     
+}
+
+/*** Tamanho da imagem do pokemon**/
+.Celebi{
+    width: 52%;
+    margin-top: -55%;
+    margin-left: 48%;
+    
+}
+
+/*** Tamanho dos cards pokemon Mew***/
+.card-mew{
+    position: relative;
+    margin: 1%;
+    width: 280px;
+    height: 250px;
+    background-color: rgb(253, 105, 130);
+    border-radius: 5%;
+    border: solid 2px rgb(0, 0, 0);
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    border-radius: 4%;
+}
+/*** animaçao dos cards  ***/
+.card-mew:hover{
+    -webkit-transform: scale(0.2);
+    transform: scale(1.1);
+     
+}
+/*** Tamanho da imagem do pokemon**/
+.Mew{
+    position: absolute;
+    width: 42%;
+    left: 50%;
+    top: 20%;
+    
+}
+/*** Tamanho dos cards pokemon Mewtwo***/
+.card-Mewtwo{
+    position: relative;
+    margin: 1%;
+    width: 280px;
+    height: 250px;
+    background-color: rgb(66, 66, 66);
+    border-radius: 5%;
+    border: solid 2px rgb(0, 0, 0);
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    border-radius: 4%;
+}
+/*** animaçao dos cards  ***/
+.card-Mewtwo:hover{
+    -webkit-transform: scale(0.2);
+    transform: scale(1.1);
+     
+}
+
+.Mewtwo{
+    position: absolute;
+    width: 61%;
+    left: 47%;
+    top: 24%;
+}
+footer{
+    margin-top: 10%;
+    padding: 4%;
+    background: rgba(15, 15, 15, 0.801);
+    border-top: solid 2px black;
+    
+}
+.container-footer{
+    display: flex;
+    justify-content: center;
+}
+.h3-footer{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 2%;
+    font-family: 'Inconsolata', monospace;
+}
+.footer-icons .fa{
+    width: 55px;
+    font-size: 40px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    color: blueviolet;
+    
+}
+/*** Footer Efeitos do icones ***/
+
+.footer-icons .fa:hover{
+    -moz-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    }
