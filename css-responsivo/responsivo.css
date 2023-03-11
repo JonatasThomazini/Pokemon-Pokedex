@@ -1,0 +1,54 @@
+@media screen and (max-width: 1000px) {
+    
+}
+.card{
+    margin: auto;
+    width: 91%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    border-radius: 4%;
+}
+
+@media screen and (max-width: 700px) {
+    .cards-pokemon-gass{
+        margin-top: 4%;
+    }
+    .cards-pokemon-fire{
+        margin-top: 4%;
+    }
+    .cards-pokemon-water{
+        margin-top: 4%;
+    }
+    .card-articuno{
+        margin-top: 4%;
+    }
+    .card-moltres{
+        margin-top: 4%;
+    }
+    .card-zapdos{
+        margin-top: 4%;
+    }
+    .card-celebi{
+        margin-top: 4%;
+    }
+    .card-mew{
+        margin-top: 4%;
+    }
+    .card-Mewtwo{
+        margin-top: 4%;
+    }
+    .imgpokedex{
+        width: 60%;
+        
+    }
+    .picachuHeader{
+        width: 12%; 
+        margin-left: 4%;    
+    }
+    .h3-footer{
+        margin-bottom: 5%;
+    }
+}
