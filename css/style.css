@@ -42,6 +42,7 @@ body{
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
     border-radius: 4%;
+    overflow: hidden;
 }
 
 /*** Tamanho dos cards pokemon Gass ***/
